@@ -1,0 +1,30 @@
+Closest Point - Scalar and Generic
+Closest Point Scale
+Closest Part
+Part mode - for example if you want to target hrp only, etc, etc.
+Client Side Bullet Redirection
+Auto Y Dampener
+Range for Silent, Triggerbot, and Camlock
+Antisit
+No Jump Cooldown
+Movement with set speed value and jump-power
+Smart Prediction
+MaxLead for prediction
+Resolver Types - AttenuateVelocity, BuiltVelocity, RecalculateVelocity, Movedirection, and AssemblyLinearVelocity
+Wallcheck for silent, triggerbot, and camlock
+Wallcheck types (Stay locked if target is behind wall) and (Unlock on wall)
+throttling for wallcheck (prevents fps drops)
+Smoothness
+Easing styles -- Linear, EaseIn, EaseOut, EaseInOut, EaseInQuad, EaseOutQuad, EaseInOutQuad, EaseInCubic, EaseOutCubic, EaseInOutCubic, EaseInSine, EaseOutSine, EaseInOutSine
+Triggerbot Prediction
+Triggerbot Delay
+Triggerbot Blacklisted Items, knife, food, etc.
+Visuals (FOV and Snapline) Change color, snapline thickness, Show fov and snapline, and fov transparency.
+Deadzone for camlock
+Deadzone Amount
+
+
+showcase below
+https://files.catbox.moe/l2huh7.mp4
+
+-- more features otw
