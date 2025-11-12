@@ -10,7 +10,7 @@ No Jump Cooldown
 Movement with set speed value and jump-power
 Smart Prediction
 MaxLead for prediction
-Resolver Types - AttenuateVelocity, BuiltVelocity, RecalculateVelocity, Movedirection, and AssemblyLinearVelocity
+Resolver - (VelocityPrediction) for now.
 Wallcheck for silent, triggerbot, and camlock
 Wallcheck types (Stay locked if target is behind wall) and (Unlock on wall)
 throttling for wallcheck (prevents fps drops)
