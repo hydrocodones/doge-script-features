@@ -1,6 +1,6 @@
 Aim Assist
 • Mode: Camlock / Mouse
-• Keybind (default: C)
+• Keybind (default: C) -- can set to any keybind
 • Activation: Toggle / Hold
 • AimMode: ClosestPart / ClosestPoint / Specific Part
 • Target Part (e.g. UpperTorso, Head, HumanoidRootPart)
@@ -31,7 +31,7 @@ Range
 • Max distance (studs)
 
 Triggerbot
-• Trigger key (default: T)
+• Trigger key (default: T) -- -- can set to any keybind
 • Activation: Toggle / Hold
 • Wall check
 • Trigger delay (ms)
@@ -55,18 +55,18 @@ Movement
 • Speed hack toggle
 • WalkSpeed (16–500)
 • JumpPower (50–300)
-• Keybind (default: V)
+• Keybind (default: V) -- -- can set to any keybind
 
 No Spread
 • Spread amount (0 = none, 100 = default)
 
-Rage – Orbit
+Rage – Orbit -- uses target bind,
 • Mode: Strafe
 • Distance from target (studs)
 • Height offset (studs)
 • Strafe speed (1–40)
 
-Rage – BulletTP
+Rage – BulletTP -- uses target bind
 • Bullet teleport on shot
 • Spectate target while active
 • Target part (Head / UpperTorso / etc.)
