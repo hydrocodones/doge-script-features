@@ -1,76 +1,77 @@
--- Aim Assist
-• Enabled (toggle)
+Aim Assist
 • Mode: Camlock / Mouse
 • Keybind (default: C)
+• Activation: Toggle / Hold
 • AimMode: ClosestPart / ClosestPoint / Specific Part
-• Target Part (e.g. UpperTorso)
-• FOV (0–360)
-• Smoothness control
+• Target Part (e.g. UpperTorso, Head, HumanoidRootPart)
+• Smoothness control (0.01–1)
 • EasingStyle (Linear, Quad, Cubic, Sine, etc.)
 • Deadzone + Deadzone radius (pixels)
 
--- Silent Aim
-• Enabled (toggle)
-• Mode: Target (needs lock) / FOV (independent)
-• FOV for target selection
-• Anti-Curve (2D/3D + angular limit)
-• Closest Point prediction (Scalar/Generic)
+Silent Aim
+• Mode: Target (requires lock) / FOV (independent)
+• Closest Point prediction (Scalar / Generic)
+• Closest Point scalar multiplier
+• Anti-Curve (2D / 3D + angular limit in degrees)
 • Client Bullet Redirection (weapon-specific)
-• Prediction per weapon (e.g. 0.11)
+• Prediction per weapon (e.g. 0.11–0.135)
 
--- Checks
+Checks
 • WallCheck
 • UnlockOnWall (optional)
 • StayOnTarget through walls
 • Wall check throttle (anti-lag)
 • Disable on reload
 • Disable when knocked
+• Skip ForceField players
+• Skip friends
 
--- Range
+Range
 • Range limit toggle
 • Max distance (studs)
 
--- Triggerbot
-• Enabled (toggle)
+Triggerbot
 • Trigger key (default: T)
+• Activation: Toggle / Hold
 • Wall check
 • Trigger delay (ms)
-• Prediction
-• Blacklisted items (e.g. Knife)
+• Prediction value
+• Blacklisted items (e.g. Knife, food.)
 
--- Resolver
-• Enabled (toggle)
-• VelocityPredictor mode
-• Custom prediction (e.g. 0.1314)
+Resolver
+• ResolverType: VelocityPredictor
+• Manual prediction override (e.g. 0.1314)
 • Max lead distance
 • Velocity history size
-• Prediction strength & direction sensitivity
+• Prediction strength (0–1)
+• Direction change sensitivity
 
--- Visuals
-• FOV circle (color + transparency)
-• Snapline/tracer (color + thickness)
+Visuals
+• FOV circle (color + transparency + thickness + filled + outline)
+• Static or Dynamic FOV (min/max + distance scaling)
+• Snapline/tracer (color + thickness + transparency + outline)
 
--- Movement
+Movement
 • Speed hack toggle
-• WalkSpeed (e.g. 200)
-• JumpPower (e.g. 200)
+• WalkSpeed (16–500)
+• JumpPower (50–300)
 • Keybind (default: V)
 
--- No Spread
-• Enabled (toggle)
-• Spread amount (0 = none)
+No Spread
+• Spread amount (0 = none, 100 = default)
 
--- Rage - Orbit
-• Strafe / Random teleport mode
-• Distance, height, speed (strafe)
-• Random radius + teleport delay (random)
+Rage – Orbit
+• Mode: Strafe
+• Distance from target (studs)
+• Height offset (studs)
+• Strafe speed (1–40)
 
--- Rage - BulletTP
+Rage – BulletTP
 • Bullet teleport on shot
-• Spectate target option
-• Target part (e.g. Head)
+• Spectate target while active
+• Target part (Head / UpperTorso / etc.)
 
--- Misc
+Misc
 • Anti-Sit
 • No Jump Cooldown
-• Anti-Void (destroy height hack)
+• Anti-Void (prevent falling into void)
