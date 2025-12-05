@@ -1,77 +1,124 @@
-Aim Assist
-• Mode: Camlock / Mouse
-• Keybind (default: C) -- can set to any keybind
-• Activation: Toggle / Hold
-• AimMode: ClosestPart / ClosestPoint / Specific Part
-• Target Part (e.g. UpperTorso, Head, HumanoidRootPart)
-• Smoothness control (0.01–1)
-• EasingStyle (Linear, Quad, Cubic, Sine, etc.)
-• Deadzone + Deadzone radius (pixels)
+Main
+
+Intro
+
+AimAssist
+
+Aim Assist (Mouse or Camlock)
+Keybind
+Toggle/Hold activation
+AimMode (ClosestPart, ClosestPoint, Part)
+Custom PartTarget
+Smoothness adjustment
+EasingStyle (Linear, Sine, Back, Quad, etc.)
+EasingDirection (In, Out, InOut)
+Deadzone with pixel radius
+
+SilentAim
 
 Silent Aim
-• Mode: Target (requires lock) / FOV (independent)
-• Closest Point prediction (Scalar / Generic)
-• Closest Point scalar multiplier
-• Anti-Curve (2D / 3D + angular limit in degrees)
-• Client Bullet Redirection (weapon-specific)
-• Prediction per weapon (e.g. 0.11–0.135)
+Mode (Target or FOV)
+Closest Point calculation
+ClosestPointScale (Scalar or generic)
+Adjustable ClosestPointScaleValue
+
+AntiCurve
+
+Anti Curve
+Mode (2D or 3D)
+AngularCurve limit
+
+ClientBulletRedirection
+
+Client Bullet Redirection
+Weapon-specific list
+Custom Prediction value per weapon
 
 Checks
-• WallCheck
-• UnlockOnWall (optional)
-• StayOnTarget through walls
-• Wall check throttle (anti-lag)
-• Disable on reload
-• Disable when knocked
-• Skip ForceField players
-• Skip friends
+
+WallCheck
+UnlockOnWall
+StayOnTarget
+Reload check
+Knocked check
+ForceField check
+Friend check
+NoToolCheck (requires weapon equipped)
 
 Range
-• Range limit toggle
-• Max distance (studs)
+
+Range limiter
+Maximum lock distance (studs)
 
 Triggerbot
-• Trigger key (default: T) -- -- can set to any keybind
-• Activation: Toggle / Hold
-• Wall check
-• Trigger delay (ms)
-• Prediction value
-• Blacklisted items (e.g. Knife, food.)
+
+Triggerbot
+TriggerKey
+Toggle/Hold activation
+TriggerWallCheck
+TriggerDelay
+TriggerPrediction
+Blacklisted items
 
 Resolver
-• ResolverType: VelocityPredictor
-• Manual prediction override (e.g. 0.1314)
-• Max lead distance
-• Velocity history size
-• Prediction strength (0–1)
-• Direction change sensitivity
 
-Visuals
-• FOV circle (color + transparency + thickness + filled + outline)
-• Static or Dynamic FOV (min/max + distance scaling)
-• Snapline/tracer (color + thickness + transparency + outline)
+Resolver system
+ResolverType (VelocityPredictor, AttenuateVelocity, BuiltVelocity, MoveDirection, etc.)
+Prediction control
+MaxLead limit
+VelocityPredictor (HistorySize, PredictionStrength, DirectionChangeSensitivity)
+AttenuateVelocity (NoiseScale, SensorNoise, FadeRate)
+BuiltVelocity (UpdateInterval)
+
+Visuals - FOV
+
+FOV circle
+Custom color & transparency
+Thickness & filled option
+Outline with custom color/thickness
+Adjustable size
+
+Visuals - Snapline
+
+Snapline / Tracer
+Custom color & transparency
+Thickness
+Outline with custom color/thickness
 
 Movement
-• Speed hack toggle
-• WalkSpeed (16–500)
-• JumpPower (50–300)
-• Keybind (default: V) -- -- can set to any keybind
 
-No Spread
-• Spread amount (0 = none, 100 = default)
+Speed modification (WalkSpeed)
+JumpPower modification
+Keybind
 
-Rage – Orbit -- uses target bind,
-• Mode: Strafe
-• Distance from target (studs)
-• Height offset (studs)
-• Strafe speed (1–40)
+NoSpread
 
-Rage – BulletTP -- uses target bind
-• Bullet teleport on shot
-• Spectate target while active
-• Target part (Head / UpperTorso / etc.)
+No Spread / Spread reduction
+Adjustable Amount (0–100)
+
+Rage - Orbit
+
+Orbit / Auto strafe around target
+Mode selection
+Distance control
+Height offset
+Speed control
+
+Rage - BulletTP
+
+Bullet Teleport
+Spectate target option
+Target part selection
 
 Misc
-• Anti-Sit
-• No Jump Cooldown
-• Anti-Void (prevent falling into void)
+
+Anti Sit
+No Jump Cooldown
+Anti Void (prevents falling into void)
+
+Macro
+
+Macro
+Keybind
+Acceleration
+Variety (First or Third person)
